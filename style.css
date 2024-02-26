@@ -1,0 +1,48 @@
+.calander-content{
+    display: grid;
+    grid-template-columns: repeat(7, 4em);
+    grid-template-rows: repeat(7, 3.5em);
+    justify-content: center;
+    row-gap: 1px;
+    column-gap: 1px;
+}
+.date{
+    border: 1px dashed rgb(182, 113, 251);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: none;
+    background-color: antiquewhite;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: rgb(76, 4, 148);
+    border-radius: 5px;
+}
+.day{
+    border: 1px solid rgb(255, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(182, 113, 251);
+    color: white;
+   
+}
+h1{
+    text-align: center;
+}
+.p, .a{
+    
+    color: gray;
+}
+.date:hover{
+    background-color: rgb(255, 255, 255);
+    /* transform: scale(1.2); */
+    font-size: 1.7em;
+    transition: .5s;
+}
+.day:hover{
+    background-color: rgb(237, 216, 255);
+    color: black;
+    font-size: 1.7em;
+    transition: .5s;
+}
